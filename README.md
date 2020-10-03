@@ -32,15 +32,13 @@ const patched = seamlessImmutablePatch(obj, [
     value: 3,
   },
 ])
-
-patched
-
 /*
-{
+> patched
+immutable({
   a: 1,
   b: {
     c: 3,
   },
-}
+})
 */
 ```
