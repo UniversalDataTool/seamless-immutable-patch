@@ -11,9 +11,6 @@ Execute [JSON Patches](https://tools.ietf.org/html/rfc6902#section-4.5) on [seam
 
 ## Usage
 
-import seamlessImmutablePatch from "seamless-immutable-patch"
-import seamless from "seamless-immutable"
-
 ```javascript
 const immutable = require("seamless-immutable")
 const seamlessImmutablePatch = require("seamless-immutable-patch")
