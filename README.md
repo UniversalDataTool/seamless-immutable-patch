@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/seamless-immutable-patch.svg)](https://badge.fury.io/js/seamless-immutable-patch)
 [![Test Status](https://github.com/UniversalDataTool/seamless-immutable-patch/workflows/Release/badge.svg)](https://github.com/UniversalDataTool/seamless-immutable-patch/actions)
 
-Execute [JSON Patches](https://tools.ietf.org/html/rfc6902#section-4.5) on [seamless-immutable]() objects.
+Execute [JSON Patches](https://tools.ietf.org/html/rfc6902#section-4.5) on [seamless-immutable](https://github.com/rtfeldman/seamless-immutable) objects.
 
 ## Installation
 
