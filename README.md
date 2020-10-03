@@ -1,5 +1,8 @@
 # seamless-immutable-patch
 
+[![npm version](https://badge.fury.io/js/seamless-immutable-patch.svg)](https://badge.fury.io/js/seamless-immutable-patch)
+[![Test Status](https://github.com/UniversalDataTool/seamless-immutable-patch/workflows/Release/badge.svg)](https://github.com/UniversalDataTool/seamless-immutable-patch/actions)
+
 Execute [JSON Patches](https://tools.ietf.org/html/rfc6902#section-4.5) on [seamless-immutable]() objects.
 
 ## Installation
@@ -10,7 +13,6 @@ Execute [JSON Patches](https://tools.ietf.org/html/rfc6902#section-4.5) on [seam
 
 import seamlessImmutablePatch from "seamless-immutable-patch"
 import seamless from "seamless-immutable"
-
 
 ```javascript
 const immutable = require("seamless-immutable")
@@ -41,6 +43,4 @@ patched
   },
 }
 */
-
-
 ```
