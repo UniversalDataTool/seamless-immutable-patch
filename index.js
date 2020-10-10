@@ -57,6 +57,9 @@ module.exports = (object, patches) => {
         if (!isNaN(parseInt(path.slice(-1)[0]))) {
           object = setIn(object, path, patch.value)
         } else {
+          if (path[path.length - 1] === "-") {
+            path = path.slice(0, -1)
+          }
           const arrayAtPath = Array.isArray(getIn(object, path))
           if (arrayAtPath) {
             object = updateIn(object, path, addToArray, patch.value)
